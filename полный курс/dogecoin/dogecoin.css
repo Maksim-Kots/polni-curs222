@@ -1,0 +1,181 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: #060529;
+  }
+
+.link {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .tradingview-container {
+    padding-top: 2%;
+  }
+  
+  .box1 {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 2%;
+    font-size: 60px;
+  }
+  
+  .box2 {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    width: 50%;
+    font-size: 60px;
+    margin-left: 200px;
+    float: left;
+  }
+    
+  .box3 {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    width: 18%;
+    height: 100px;
+    margin-top: 1%;
+    font-size: 60px;
+    float: right;
+    margin-right: 250px;
+  }
+
+  .prodat {
+    background-color: #ff4343;
+    border: none;
+    color: white;
+    padding: 21px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .kupit {
+    background-color: rgb(69, 245, 98);
+    border: none;
+    color: white;
+    padding: 21px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .link1 {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    }
+  
+  .kupit:hover{
+    color: white;
+    background-color: rgb(116, 255, 135);
+    transition: linear 0.2s;
+    border-radius: 10px;
+  }
+  
+  .prodat:hover {
+    color: white;
+    background-color: rgb(248, 112, 112);
+    transition: linear 0.2s;
+    border-radius: 10px;
+  }
+
+.footer-risk {
+  margin-top: 30px;
+  margin-left: 250px;
+  display: block;
+  width: 1400px;
+  color: white;
+}
+
+.footer {
+  background-color: #060529;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.dropbtn {
+  background-color: #060529;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 260px;
+  box-shadow: black;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #060529;
+}
+
+.dogecoin-info {
+  margin-top: 3%;
+  margin-left: 250px;
+  width: 1400px;
+  margin-bottom: 3%;
+}
+
+.dogecoin-info p {
+    margin: 19px 0
+}
+
+.dogecoin-info h2,.dogecoin-info h3 {
+    margin: 1.5rem 0
+}
+
+.dogecoin-info ul,.dogecoin-info li {
+    list-style: inherit
+}
+
+.dogecoin-info ul {
+    padding-left: 30px
+}
+
+.dogecoin-info li {
+    margin: .5rem 0
+}
